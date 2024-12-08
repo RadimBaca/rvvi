@@ -1,1 +1,1 @@
-[{"name":"iid","evidenceType":"number","typeFidelity":"precise"},{"name":"name","evidenceType":"string","typeFidelity":"precise"}]
+[{"name":"iid","evidenceType":"number","typeFidelity":"precise"},{"name":"name","evidenceType":"string","typeFidelity":"precise"},{"name":"postal_code","evidenceType":"string","typeFidelity":"precise"},{"name":"town","evidenceType":"string","typeFidelity":"precise"},{"name":"street","evidenceType":"string","typeFidelity":"precise"}]
