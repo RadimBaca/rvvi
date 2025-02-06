@@ -1,0 +1,40 @@
+{
+  "headers": [
+    {
+      "source": "/(.*\\.arrow)$",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.apache.arrow.file" }]
+    },
+    {
+      "source": "/(.*\\.appcache)$",
+      "headers": [{ "key": "Content-Type", "value": "text/cache-manifest" }]
+    },
+    {
+      "source": "/(.*\\.clr)$",
+      "headers": [{ "key": "Content-Type", "value": "application/octet-stream" }]
+    },
+    {
+      "source": "/(.*\\.parquet)$",
+      "headers": [{ "key": "Content-Type", "value": "application/vnd.apache.parquet" }]
+    },
+    {
+      "source": "/(.*\\.wasm)$",
+      "headers": [{ "key": "Content-Type", "value": "application/wasm" }]
+    },
+    {
+      "source": "/(.*\\.woff)$",
+      "headers": [{ "key": "Content-Type", "value": "font/woff" }]
+    },
+    {
+      "source": "/(.*\\.woff2)$",
+      "headers": [{ "key": "Content-Type", "value": "font/woff2" }]
+    },
+    {
+      "source": "/(.*\\.xml)$",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    },
+    {
+      "source": "/(.*\\.pdb)$",
+      "headers": [{ "key": "Content-Type", "value": "application/x-pdb" }]
+    }
+  ]
+}
