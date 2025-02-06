@@ -1,8 +1,4 @@
-{
-  "routes": [
-    { "src": "/rvvi/(.*)", "dest": "/$1" }
-  ],
-  
+{  
   "headers": [
     {
       "source": "/(.*\\.arrow)$",
